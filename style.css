@@ -2,3 +2,17 @@
     background-color: rgb(13, 34, 73);
     color: rgb(206, 122, 13);
 }
+#inputContainer{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 50%;
+    transform: translate(0, -50%);
+}
+input, button{
+    font-size: 30px;
+    border: 2px solid;
+    border-radius: 30px;
+    text-align: center;
+    padding: 15px;
+}

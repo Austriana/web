@@ -19,5 +19,7 @@ let fetch_data = async (token) => {
 let submit = document.getElementById('submit');
 submit.addEventListener('click', () => {
     let input = document.getElementById('input');
-    fetch_data(input.value);
+    if(input.value !== ''){
+      fetch_data(input.value);
+    };
 })
