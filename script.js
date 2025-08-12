@@ -8,7 +8,7 @@ let fetch_data = async (token) => {
     if(response.ok){
         const result = await response.json();
         if(token === result.token){
-            window.location.replace("https://austriana.github.io/kontakt");
+            window.location.replace(result.path);
         }
     }
   } catch (error) {
