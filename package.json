@@ -1,0 +1,24 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austriana/web.git"
+  },
+  "author": "austriana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Austriana/web/issues"
+  },
+  "homepage": "https://github.com/Austriana/web#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "ws": "^8.18.3"
+  }
+}
