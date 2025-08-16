@@ -11,8 +11,6 @@ let toServerMsg = {
   zahl3: 3,
   zahl4: 4,
   zahl5: 5,
-  zahl6: 6,
-  zahl7: 7,
 };
 
 let send = document.getElementById('send');
